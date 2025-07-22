@@ -116,7 +116,3 @@ eval "$(zoxide init zsh)"
 
 alias cd="z"
 
-# ---- User Custom Commands ----
-
-alias temp=/Users/oolaaltan/Scripts/temp/main.sh
-
