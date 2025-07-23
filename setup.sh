@@ -10,4 +10,4 @@ cp ./tmux/tmux.conf ~/.tmux.conf
 
 cp ./zsh/zshrc ~/.zshrc
 
-cp ./emacs ~/.emacs.d
+cp -r ./emacs ~/.emacs.d
