@@ -1,5 +1,5 @@
 #theme
-theme = tokyonight-storm
+theme = tokyonight
 #keybinds
 keybind = shift+ctrl+r=reload_config
 
