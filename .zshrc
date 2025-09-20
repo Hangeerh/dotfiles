@@ -117,3 +117,8 @@ eval "$(zoxide init zsh)"
 alias cd="z"
 
 
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/hangeer/.lmstudio/bin"
+# End of LM Studio CLI section
+
