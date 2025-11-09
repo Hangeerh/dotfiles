@@ -122,3 +122,6 @@ alias cd="z"
 export PATH="$PATH:/Users/hangeer/.lmstudio/bin"
 # End of LM Studio CLI section
 
+
+# VS Code CLI
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
