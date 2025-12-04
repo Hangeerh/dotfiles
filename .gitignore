@@ -3,5 +3,6 @@
 .emacs.d/eln-cache/
 .emacs.d/elpa/
 .emacs.d/projects
+.emacs.d/auto-save-list
 
 .config/gh/

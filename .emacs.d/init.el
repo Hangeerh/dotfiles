@@ -93,3 +93,5 @@
   :config
   (setq dired-subtree-use-backgrounds nil))
 
+(use-package tex
+  :ensure auctex)
