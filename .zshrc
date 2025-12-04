@@ -77,6 +77,10 @@ ZSH_THEME="gozilla" # set by `omz`
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
+export ZSH_COMPDUMP="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/zcompdump"
+
+mkdir -p "${ZSH_COMPDUMP:h}"
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
