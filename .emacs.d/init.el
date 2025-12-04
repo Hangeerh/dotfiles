@@ -31,19 +31,15 @@
                (display-buffer-no-window)
                (allow-no-window . t)))
 
-(use-package evil
-  :ensure t
+(use-package tokyonight-themes
+  :vc (:url "https://github.com/xuchengpeng/tokyonight-themes")
   :config
-  (evil-mode 1))
+  (load-theme 'tokyonight-storm :no-confirm))
 
-(use-package delsel
+ (use-package delsel
   :ensure nil
   :hook (after-init . delete-selection-mode))
 
-(use-package solarized-theme
-  :ensure t
-  :config
-  (load-theme 'solarized-dark t))
 
 (use-package nerd-icons
   :ensure t)
