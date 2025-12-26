@@ -119,13 +119,3 @@ alias ls="eza"
 eval "$(zoxide init zsh)"
 
 alias cd="z"
-
-
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/hangeer/.lmstudio/bin"
-# End of LM Studio CLI section
-
-
-# VS Code CLI
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
