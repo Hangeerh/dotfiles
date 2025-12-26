@@ -26,9 +26,9 @@ vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "Rename symbol" }
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "Code actions" })
 
 vim.keymap.set("n", "<leader>zk", function()
-	require("flash").jump()
+  require("flash").jump()
 end, { desc = "Flash" })
 
 vim.keymap.set("n", "<leader>zK", function()
-	require("flash").treesitter()
+  require("flash").treesitter()
 end, { desc = "Flash Treesitter" })

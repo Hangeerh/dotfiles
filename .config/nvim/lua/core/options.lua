@@ -11,7 +11,7 @@ vim.opt.wrap = false
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
-vim.g.mapleader = ' '
+vim.g.mapleader = " "
 
 vim.opt.termguicolors = true
 
@@ -21,7 +21,7 @@ vim.diagnostic.config({
     prefix = "■",
     format = function(diagnostic)
       return string.format("%s (%s)", diagnostic.message, diagnostic.source)
-    end
+    end,
   },
   signs = false,
 })

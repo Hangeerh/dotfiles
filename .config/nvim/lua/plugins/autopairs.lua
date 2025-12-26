@@ -3,7 +3,7 @@ return {
   event = "InsertEnter",
   config = function()
     require("nvim-autopairs").setup({
-      disable_filetype = {"TelescoprPrompt", "vim"}
+      disable_filetype = { "TelescoprPrompt", "vim" },
     })
-  end
+  end,
 }

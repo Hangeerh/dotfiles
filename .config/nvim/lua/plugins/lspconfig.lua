@@ -12,10 +12,10 @@ return {
           analysis = {
             typeCheckingMode = "basic",
             autoSearchPaths = true,
-            useLibraryCodeForTypes = true
-          }
-        }
-      }
+            useLibraryCodeForTypes = true,
+          },
+        },
+      },
     })
-  end
+  end,
 }

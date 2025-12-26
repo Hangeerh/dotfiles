@@ -2,7 +2,7 @@ return {
   "williamboman/mason.nvim",
   dependencies = {
     "williamboman/mason-lspconfig.nvim",
-    "WhoIsSethDaniel/mason-tool-installer.nvim"
+    "WhoIsSethDaniel/mason-tool-installer.nvim",
   },
   config = function()
     require("mason").setup()
@@ -11,16 +11,16 @@ return {
       automatic_installation = true,
       ensure_installed = {
         "clangd",
-        "pyright"
-      }
+        "pyright",
+      },
     })
 
     require("mason-tool-installer").setup({
       ensure_installed = {
         "pylint",
         "stylua",
-        "isort"
-      }
+        "isort",
+      },
     })
-  end
+  end,
 }
