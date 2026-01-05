@@ -1,5 +1,3 @@
-#theme
-theme = tokyonight
 #keybinds
 keybind = shift+ctrl+r=reload_config
 
@@ -19,5 +17,10 @@ keybind = ctrl+3=goto_tab:3
 keybind = ctrl+4=goto_tab:4
 keybind = ctrl+5=goto_tab:5
 
+#ssh
+shell-integration-features = ssh-env,ssh-terminfo
+
+#theme
+theme = tokyonight
 background-opacity = 0.65
 background-blur = 80
