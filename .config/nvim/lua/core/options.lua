@@ -7,6 +7,7 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.syntax = "on"
 vim.opt.encoding = "UTF-8"
 vim.opt.wrap = false
+vim.opt.scrolloff = 10
 
 vim.opt.splitright = true
 vim.opt.splitbelow = true
