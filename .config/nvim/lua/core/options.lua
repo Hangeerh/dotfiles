@@ -8,6 +8,7 @@ vim.opt.syntax = "on"
 vim.opt.encoding = "UTF-8"
 vim.opt.wrap = false
 vim.opt.scrolloff = 10
+vim.opt.wildignore:append({ "*.o", "*.obj", ".git" })
 
 vim.opt.splitright = true
 vim.opt.splitbelow = true
