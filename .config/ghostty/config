@@ -22,5 +22,5 @@ shell-integration-features = ssh-env,ssh-terminfo
 
 #theme
 theme = tokyonight
-background-opacity = 0.87
+background-opacity = 0.95
 background-blur = 80
