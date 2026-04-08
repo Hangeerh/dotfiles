@@ -1,9 +1,7 @@
-return {
-  "windwp/nvim-autopairs",
-  event = "InsertEnter",
-  config = function()
+vim.api.nvim_create_autocmd({"InsertEnter"}, {
+  callback = function()
     require("nvim-autopairs").setup({
       disable_filetype = { "TelescoprPrompt", "vim" },
     })
-  end,
-}
+  end
+})
