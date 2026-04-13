@@ -26,3 +26,20 @@ vim.opt.termguicolors = true
 
 vim.opt.timeout = true
 vim.opt.timeoutlen = 500
+
+-- Diagnostics and autocompletion
+vim.diagnostic.config({
+  severity_sort = true,
+  update_in_insert = false,
+  float = {
+    border = "rounded",
+    source = "if_many",
+  },
+  underline = true,
+  virtual_text = {
+    spacing = 2,
+    source = "if_many",
+    prefix = "●",
+  },
+  signs = false,
+})

@@ -14,3 +14,9 @@ vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move to down split" })
 vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move to up split" })
 
 vim.keymap.set("n", "<leader>ee", "<cmd>Oil<CR>", { desc = "Open File Finder" })
+
+local telescope = require('telescope.builtin')
+vim.keymap.set('n', '<leader>ff', telescope.find_files, { desc = 'Telescope find files' })
+vim.keymap.set('n', '<leader>fs', telescope.live_grep, { desc = 'Telescope live grep' })
+vim.keymap.set('n', '<leader>fb', telescope.buffers, { desc = 'Telescope buffers' })
+vim.keymap.set('n', '<leader>fh', telescope.help_tags, { desc = 'Telescope help tags' })
