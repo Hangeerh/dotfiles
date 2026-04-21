@@ -95,6 +95,7 @@ require("mason-tool-installer").setup({
     "jsonls",
     "stylua",
     "prettier",
+    "clangd",
   },
 })
 -- Overrides begin here
@@ -154,9 +155,10 @@ vim.lsp.enable({
   "jsonls",
   "stylua",
   "prettier",
+  "clangd",
 })
 
-vim.pack.add({"https://github.com/saghen/blink.cmp"})
+vim.pack.add({ "https://github.com/saghen/blink.cmp" })
 
 vim.pack.add({
   "https://github.com/nvim-lua/plenary.nvim",
